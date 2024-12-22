@@ -1,0 +1,103 @@
+body {
+    font-family: Georgia, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dfdfdf;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #c6eaf7;
+    /* background-color: #c9e1ff; */
+}
+/* #badbff; */
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: .5;
+    color: #dbeaef;
+}
+
+.icon {
+    width: 42px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Optional: Add some space below the logo */
+}
+
+#results {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 5px solid cornflowerblue;
+    color: #000000;
+    text-align: center;
+}
+
+.loginbutton {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.linkedin{
+    color: rgba(27, 62, 240, 0.731);
+}
+
+.pastjobs img {
+    border: 5px solid cornflowerblue;
+    border-radius: 50px;
+    width: 260px;
+    height: 175px;
+    margin-left: 150px;
+    margin-right: 100px;
+    justify-content: space-between;
+}
+
+.pastjobstext{
+    margin-left: 50px;
+    margin-right: 70px;
+    max-width: 365px;
+    text-align: left;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.pastjobsheader{
+    margin-left: 100px;
+    margin-right: 50px;
+    max-width: 350px;
+    text-indent: 50px;
+    text-align: left;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+
+
+.pastprojects img {
+    border: 5px solid cornflowerblue;
+    border-radius: 25px;
+    width: 500px;
+    height: 350px;
+    margin-left: 150px;
+    margin-right: 100px;
+    justify-content: space-between;
+}
